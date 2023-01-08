@@ -1,6 +1,9 @@
 import { useContext } from "react";
+
 import classes from "./MealItem.module.css";
+
 import MealItemForm from "./MealItemForm";
+
 import CartContext from "../../../store/cart-context";
 
 const MealItem = (props) => {

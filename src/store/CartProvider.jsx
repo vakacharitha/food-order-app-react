@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import React,{ useReducer } from "react";
 
 import CartContext from "./cart-context";
 
@@ -75,11 +75,12 @@ const CartProvider = (props) => {
     addItem: addItemToCartHandler,
     removeItem: removeItemToCartHandler,
   };
+
   return (
     <CartContext.Provider value={cartContext}>
       {props.children}
     </CartContext.Provider>
   );
-};
+}
 
 export default CartProvider;
