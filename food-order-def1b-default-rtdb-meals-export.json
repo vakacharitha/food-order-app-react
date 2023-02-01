@@ -1,0 +1,22 @@
+{
+  "m1": {
+    "Description": "Our beef patty with your choice of toppings.",
+    "Name": "HAMBURGER",
+    "Price": 3.5
+  },
+  "m2": {
+    "Description": "Deep fried panko crusted mushroom caps stuffed with cheese",
+    "Name": "THE OPTION",
+    "Price": 5.5
+  },
+  "m3": {
+    "Description": "Fresh cut fries, cheese curds & gravy.",
+    "Name": "POUTINE",
+    "Price": 4
+  },
+  "m4": {
+    "Description": "Double cheeseburger \"sangwiched\" between two grilled cheese buns",
+    "Name": "THE VATICAN",
+    "Price": 3.5
+  }
+}
